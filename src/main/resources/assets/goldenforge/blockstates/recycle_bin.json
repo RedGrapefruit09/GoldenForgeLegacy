@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "goldenforge:block/recycle_bin"
+        },
+        "facing=east": {
+            "model": "goldenforge:block/recycle_bin",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "goldenforge:block/recycle_bin",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "goldenforge:block/recycle_bin",
+            "y": 270
+        }
+    }
+}

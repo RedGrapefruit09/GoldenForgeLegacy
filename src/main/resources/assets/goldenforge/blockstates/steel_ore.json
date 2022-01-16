@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "stage=0": {
+            "model": "goldenforge:block/steel_ore_stage0"
+        },
+        "stage=1": {
+            "model": "goldenforge:block/steel_ore_stage1"
+        },
+        "stage=2": {
+            "model": "goldenforge:block/steel_ore_stage2"
+        },
+        "stage=3": {
+            "model": "goldenforge:block/steel_ore_stage3"
+        },
+        "stage=4": {
+            "model": "goldenforge:block/steel_ore_stage4"
+        },
+        "stage=5": {
+            "model": "goldenforge:block/steel_ore_stage5"
+        }
+    }
+}

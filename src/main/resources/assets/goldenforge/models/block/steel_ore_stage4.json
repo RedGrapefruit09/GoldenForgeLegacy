@@ -1,0 +1,6 @@
+{
+    "parent": "goldenforge:block/ore_stage4",
+    "textures": {
+        "main": "goldenforge:block/steel_ore"
+    }
+}

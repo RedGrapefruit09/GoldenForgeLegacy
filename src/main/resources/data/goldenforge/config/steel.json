@@ -1,0 +1,79 @@
+{
+    "production": {
+        "oreDrops": [
+            {
+                "droppedItem": "goldenforge:stone_fragment",
+                "chance": 75,
+                "dropCount": {
+                    "min": 1,
+                    "max": 3
+                },
+                "doubledDropChance": 20
+            },
+            {
+                "droppedItem": "goldenforge:andesite_fragment",
+                "chance": 15,
+                "dropCount": {
+                    "min": 2,
+                    "max": 3
+                },
+                "doubledDropChance": 8
+            },
+            {
+                "droppedItem": "goldenforge:diorite_fragment",
+                "chance": 30,
+                "dropCount": {
+                    "min": 1,
+                    "max": 5
+                },
+                "doubledDropChance": 2
+            },
+            {
+                "droppedItem": "goldenforge:gravel_fragment",
+                "chance": 25,
+                "dropCount": {
+                    "min": 2,
+                    "max": 3
+                },
+                "doubledDropChance": 12
+            },
+            {
+                "droppedItem": "goldenforge:steel_fragment",
+                "chance": 50,
+                "dropCount": {
+                    "min": 1,
+                    "max": 2
+                },
+                "doubledDropChance": 5
+            }
+        ],
+        "cleanFragment": "goldenforge:clean_steel_fragment",
+        "reinforcementInputs": [
+            {
+                "id": "minecraft:iron_ingot",
+                "amount": 5
+            },
+            {
+                "id": "minecraft:gold_ingot",
+                "amount": 3
+            },
+            {
+                "id": "minecraft:diamond",
+                "amount": 2
+            }
+        ],
+        "reinforcedFragment": "goldenforge:reinforced_steel_fragment",
+        "gloves": {
+            "name": "Steel",
+            "withhold": 5000,
+            "useMinutes": 600
+        },
+        "container": {
+            "name": "Steel",
+            "withhold": 4500,
+            "capacity": 12,
+            "useMinutes": 300
+        },
+        "materialTemperature": 12000
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "goldenforge:block/fragment_reinforcer"
+        },
+        "facing=east": {
+            "model": "goldenforge:block/fragment_reinforcer",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "goldenforge:block/fragment_reinforcer",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "goldenforge:block/fragment_reinforcer",
+            "y": 270
+        }
+    }
+}

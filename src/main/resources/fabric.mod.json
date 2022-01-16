@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "goldenforge",
+    "version": "${version}",
+    "name": "GoldenForge",
+    "description": "GoldenForge adds very realistic metals, biomes, dimensinons, mobs and a ton of other content!",
+    "authors": [
+        "RedGrapefruit09"
+    ],
+    "contact": {
+        "website": "https://redgrapefruit09.github.io/goldenforge",
+        "repo": "https://github.com/RedGrapefruit09/GoldenForge"
+    },
+    "license": "MIT",
+    "icon": "assets/goldenforge/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            {
+                "adapter": "kotlin",
+                "value": "io.github.redgrapefruit09.goldenforge.client.GoldenForgeClient"
+            }
+        ],
+        "main": [
+            {
+                "adapter": "kotlin",
+                "value": "io.github.redgrapefruit09.goldenforge.GoldenForge"
+            }
+        ]
+    },
+    "mixins": [
+        "goldenforge.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.11.6",
+        "fabric": "*",
+        "minecraft": "1.17.1"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "up": "goldenforge:block/fragment_cleaner_main",
+        "down": "goldenforge:block/fragment_cleaner_main",
+        "east": "goldenforge:block/fragment_cleaner_main",
+        "west": "goldenforge:block/fragment_cleaner_main",
+        "south": "goldenforge:block/fragment_cleaner_main",
+        "north": "goldenforge:block/fragment_cleaner_front"
+    }
+}
